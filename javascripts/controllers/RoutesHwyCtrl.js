@@ -1,6 +1,4 @@
 app.controller("RoutesHwyCtrl", function($scope) {
-	
-	$scope.message= 'See Historic Highway 66';
-	console.log("Hwy66");
-
+	$scope.highwayName = 'Route 66';
+	$scope.highwayDescription = 'The romance of Route 66 continues to captivate people around the world. Running between Chicago and Los Angeles, “over two thousand miles all the way” in the words of the popular R&B anthem, this legendary old road passes through the heart of the United States on a diagonal trip that takes in some of the country’s most archetypal roadside scenes. If you’re looking for great displays of neon signs, rusty middle-of-nowhere truck stops, or kitschy Americana, do as the song says and “get your kicks on Route 66."';
 });
